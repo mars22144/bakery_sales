@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib.pylab as mpatches
+import matplotlib.pyplot as plt
 import seaborn as sbn
 
 ds = pd.read_csv("csv/bakery_sales_dataset.csv", sep=",", encoding="latin1")
@@ -18,6 +18,8 @@ categories = ds.groupby("Category")["Quantity_Sold"].sum().reset_index()
 # penjualan tiap cabang
 cabang_sales = ds.groupby("Branch")["Total_Sales"].sum().reset_index()
 cabang_sales = cabang_sales.sort_values(by="Total_Sales", ascending=False)
+
+# grafik
 
 
 print("=" * 15, "tren penjualan", "=" * 15)
