@@ -4,6 +4,10 @@ import matplotlib.cm as mcm
 
 ds = pd.read_csv("csv/bakery_sales_dataset.csv", sep=",", encoding="latin1")
 
-pop_product = ds["Product_Name"].value_counts().idxmax()
+# product terlaris
+pop_product = ds.groupby("Product_Name")["Quantity_Sold"].sum().reset_index()
+pop_product = pop_product.sort_values(by="Quantity_Sold", ascending=False)
 
-print(pop_product)
+
+
+print(pop_product.to_string(index=False))
