@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pylab as mpatches
-import matplotlib.cm as mcm
+import seaborn as sbn
 
 ds = pd.read_csv("csv/bakery_sales_dataset.csv", sep=",", encoding="latin1")
 
