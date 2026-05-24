@@ -1,0 +1,201 @@
+Order_ID,Date,Product_Name,Category,Quantity_Sold,Unit_Price,Total_Sales,Payment_Method,Branch
+ORD0001,2025-03-23,Cheesecake,Cake,1,50,50,E-Wallet,Subang Jaya
+ORD0002,2025-02-01,Blueberry Muffin,Pastry,3,10,30,E-Wallet,Shah Alam
+ORD0003,2025-03-28,Latte,Drink,2,14,28,E-Wallet,Subang Jaya
+ORD0004,2025-01-05,Chocolate Cake,Cake,2,45,90,Cash,Shah Alam
+ORD0005,2025-03-06,Cappuccino,Drink,1,15,15,E-Wallet,Shah Alam
+ORD0006,2025-04-02,Latte,Drink,7,14,98,Cash,Subang Jaya
+ORD0007,2025-03-17,Baguette,Bread,1,8,8,Cash,Klang
+ORD0008,2025-02-24,Whole Wheat Bread,Bread,5,9,45,Cash,Shah Alam
+ORD0009,2025-04-08,Whole Wheat Bread,Bread,2,9,18,Cash,Subang Jaya
+ORD0010,2025-01-13,Whole Wheat Bread,Bread,6,9,54,E-Wallet,Subang Jaya
+ORD0011,2025-04-14,Chocolate Cake,Cake,8,45,360,E-Wallet,Shah Alam
+ORD0012,2025-04-29,Chocolate Cookie,Cookie,2,6,12,E-Wallet,Subang Jaya
+ORD0013,2025-04-17,Cappuccino,Drink,6,15,90,E-Wallet,Shah Alam
+ORD0014,2025-04-01,Cheesecake,Cake,1,50,50,E-Wallet,Shah Alam
+ORD0015,2025-04-09,Baguette,Bread,2,8,16,Cash,Shah Alam
+ORD0016,2025-02-18,Baguette,Bread,8,8,64,E-Wallet,Subang Jaya
+ORD0017,2025-01-21,Whole Wheat Bread,Bread,6,9,54,Cash,Klang
+ORD0018,2025-02-04,Cheesecake,Cake,3,50,150,E-Wallet,Klang
+ORD0019,2025-02-01,Croissant,Pastry,8,12,96,Card,Subang Jaya
+ORD0020,2025-04-29,Latte,Drink,4,14,56,E-Wallet,Subang Jaya
+ORD0021,2025-04-18,Chocolate Cake,Cake,4,45,180,Cash,Subang Jaya
+ORD0022,2025-02-21,Baguette,Bread,2,8,16,Cash,Klang
+ORD0023,2025-04-23,Whole Wheat Bread,Bread,4,9,36,E-Wallet,Subang Jaya
+ORD0024,2025-02-20,Macaron,Cookie,3,7,21,Card,Shah Alam
+ORD0025,2025-02-01,Latte,Drink,5,14,70,E-Wallet,Klang
+ORD0026,2025-02-24,Cappuccino,Drink,7,15,105,Card,Shah Alam
+ORD0027,2025-01-18,Latte,Drink,8,14,112,Cash,Shah Alam
+ORD0028,2025-04-21,Cheesecake,Cake,3,50,150,E-Wallet,Shah Alam
+ORD0029,2025-04-12,Chocolate Cookie,Cookie,2,6,12,Card,Subang Jaya
+ORD0030,2025-03-18,Macaron,Cookie,5,7,35,E-Wallet,Shah Alam
+ORD0031,2025-03-29,Cheesecake,Cake,5,50,250,E-Wallet,Subang Jaya
+ORD0032,2025-01-15,Baguette,Bread,7,8,56,Cash,Subang Jaya
+ORD0033,2025-01-01,Baguette,Bread,3,8,24,E-Wallet,Shah Alam
+ORD0034,2025-04-22,Baguette,Bread,4,8,32,Cash,Subang Jaya
+ORD0035,2025-04-08,Croissant,Pastry,1,12,12,E-Wallet,Subang Jaya
+ORD0036,2025-03-04,Chocolate Cake,Cake,2,45,90,Card,Subang Jaya
+ORD0037,2025-01-31,Chocolate Cake,Cake,4,45,180,E-Wallet,Shah Alam
+ORD0038,2025-01-11,Macaron,Cookie,2,7,14,E-Wallet,Shah Alam
+ORD0039,2025-01-17,Macaron,Cookie,3,7,21,Card,Klang
+ORD0040,2025-04-22,Cappuccino,Drink,7,15,105,Cash,Klang
+ORD0041,2025-04-07,Blueberry Muffin,Pastry,5,10,50,Card,Klang
+ORD0042,2025-03-25,Whole Wheat Bread,Bread,8,9,72,E-Wallet,Subang Jaya
+ORD0043,2025-01-16,Blueberry Muffin,Pastry,4,10,40,Cash,Subang Jaya
+ORD0044,2025-01-03,Cappuccino,Drink,4,15,60,E-Wallet,Shah Alam
+ORD0045,2025-01-01,Cheesecake,Cake,1,50,50,Cash,Shah Alam
+ORD0046,2025-04-26,Chocolate Cake,Cake,6,45,270,Cash,Klang
+ORD0047,2025-01-31,Baguette,Bread,8,8,64,Cash,Klang
+ORD0048,2025-01-17,Cappuccino,Drink,8,15,120,Cash,Subang Jaya
+ORD0049,2025-04-14,Chocolate Cookie,Cookie,4,6,24,Cash,Shah Alam
+ORD0050,2025-03-26,Chocolate Cookie,Cookie,6,6,36,Card,Subang Jaya
+ORD0051,2025-03-01,Chocolate Cake,Cake,2,45,90,Cash,Subang Jaya
+ORD0052,2025-04-04,Whole Wheat Bread,Bread,2,9,18,Cash,Shah Alam
+ORD0053,2025-01-25,Latte,Drink,8,14,112,Cash,Subang Jaya
+ORD0054,2025-01-24,Baguette,Bread,8,8,64,Cash,Shah Alam
+ORD0055,2025-02-26,Latte,Drink,2,14,28,Cash,Klang
+ORD0056,2025-03-11,Chocolate Cake,Cake,2,45,90,Cash,Shah Alam
+ORD0057,2025-02-22,Macaron,Cookie,8,7,56,Cash,Subang Jaya
+ORD0058,2025-04-26,Chocolate Cake,Cake,3,45,135,Card,Shah Alam
+ORD0059,2025-02-19,Baguette,Bread,8,8,64,Card,Subang Jaya
+ORD0060,2025-03-31,Latte,Drink,8,14,112,Cash,Shah Alam
+ORD0061,2025-02-07,Blueberry Muffin,Pastry,1,10,10,E-Wallet,Klang
+ORD0062,2025-03-11,Chocolate Cake,Cake,6,45,270,Cash,Shah Alam
+ORD0063,2025-03-16,Macaron,Cookie,3,7,21,Cash,Klang
+ORD0064,2025-01-11,Croissant,Pastry,2,12,24,E-Wallet,Shah Alam
+ORD0065,2025-03-28,Blueberry Muffin,Pastry,7,10,70,Cash,Klang
+ORD0066,2025-02-01,Cappuccino,Drink,1,15,15,E-Wallet,Shah Alam
+ORD0067,2025-02-23,Cappuccino,Drink,6,15,90,Card,Shah Alam
+ORD0068,2025-03-27,Whole Wheat Bread,Bread,4,9,36,Card,Subang Jaya
+ORD0069,2025-01-17,Baguette,Bread,8,8,64,Card,Shah Alam
+ORD0070,2025-01-02,Macaron,Cookie,2,7,14,Cash,Klang
+ORD0071,2025-01-28,Latte,Drink,5,14,70,Cash,Subang Jaya
+ORD0072,2025-04-23,Cheesecake,Cake,4,50,200,Card,Subang Jaya
+ORD0073,2025-01-21,Macaron,Cookie,5,7,35,E-Wallet,Klang
+ORD0074,2025-03-09,Chocolate Cake,Cake,5,45,225,E-Wallet,Shah Alam
+ORD0075,2025-04-23,Croissant,Pastry,5,12,60,Cash,Shah Alam
+ORD0076,2025-04-06,Latte,Drink,3,14,42,Card,Subang Jaya
+ORD0077,2025-03-19,Blueberry Muffin,Pastry,6,10,60,Cash,Klang
+ORD0078,2025-03-23,Baguette,Bread,8,8,64,Card,Shah Alam
+ORD0079,2025-01-12,Chocolate Cookie,Cookie,5,6,30,Cash,Shah Alam
+ORD0080,2025-02-12,Croissant,Pastry,5,12,60,Cash,Klang
+ORD0081,2025-02-26,Latte,Drink,7,14,98,E-Wallet,Shah Alam
+ORD0082,2025-01-15,Cheesecake,Cake,3,50,150,E-Wallet,Shah Alam
+ORD0083,2025-04-17,Whole Wheat Bread,Bread,3,9,27,Card,Shah Alam
+ORD0084,2025-01-06,Baguette,Bread,6,8,48,Cash,Subang Jaya
+ORD0085,2025-01-27,Blueberry Muffin,Pastry,2,10,20,Card,Klang
+ORD0086,2025-04-24,Chocolate Cookie,Cookie,3,6,18,Cash,Shah Alam
+ORD0087,2025-04-13,Croissant,Pastry,7,12,84,Cash,Shah Alam
+ORD0088,2025-04-05,Whole Wheat Bread,Bread,7,9,63,E-Wallet,Klang
+ORD0089,2025-04-14,Blueberry Muffin,Pastry,5,10,50,Cash,Klang
+ORD0090,2025-01-14,Chocolate Cookie,Cookie,1,6,6,Card,Shah Alam
+ORD0091,2025-01-26,Macaron,Cookie,6,7,42,Card,Shah Alam
+ORD0092,2025-01-29,Chocolate Cake,Cake,4,45,180,Card,Subang Jaya
+ORD0093,2025-02-05,Cheesecake,Cake,5,50,250,Card,Klang
+ORD0094,2025-03-07,Chocolate Cookie,Cookie,6,6,36,Cash,Shah Alam
+ORD0095,2025-04-23,Baguette,Bread,3,8,24,E-Wallet,Subang Jaya
+ORD0096,2025-01-05,Cheesecake,Cake,7,50,350,Card,Klang
+ORD0097,2025-04-11,Whole Wheat Bread,Bread,7,9,63,E-Wallet,Klang
+ORD0098,2025-01-15,Chocolate Cookie,Cookie,4,6,24,Card,Shah Alam
+ORD0099,2025-04-01,Chocolate Cookie,Cookie,1,6,6,E-Wallet,Klang
+ORD0100,2025-03-29,Blueberry Muffin,Pastry,6,10,60,Card,Shah Alam
+ORD0101,2025-03-27,Whole Wheat Bread,Bread,6,9,54,E-Wallet,Shah Alam
+ORD0102,2025-04-03,Baguette,Bread,5,8,40,E-Wallet,Subang Jaya
+ORD0103,2025-02-11,Chocolate Cookie,Cookie,5,6,30,E-Wallet,Shah Alam
+ORD0104,2025-01-25,Chocolate Cookie,Cookie,7,6,42,E-Wallet,Klang
+ORD0105,2025-04-26,Croissant,Pastry,5,12,60,Card,Klang
+ORD0106,2025-04-17,Chocolate Cake,Cake,5,45,225,Card,Shah Alam
+ORD0107,2025-02-25,Cappuccino,Drink,6,15,90,Card,Subang Jaya
+ORD0108,2025-02-26,Blueberry Muffin,Pastry,8,10,80,E-Wallet,Shah Alam
+ORD0109,2025-03-26,Cheesecake,Cake,5,50,250,E-Wallet,Klang
+ORD0110,2025-03-23,Cappuccino,Drink,6,15,90,Cash,Shah Alam
+ORD0111,2025-03-28,Baguette,Bread,4,8,32,Cash,Shah Alam
+ORD0112,2025-01-04,Chocolate Cake,Cake,4,45,180,Card,Klang
+ORD0113,2025-04-19,Cheesecake,Cake,8,50,400,Card,Klang
+ORD0114,2025-03-15,Blueberry Muffin,Pastry,7,10,70,Card,Subang Jaya
+ORD0115,2025-02-01,Croissant,Pastry,1,12,12,Cash,Subang Jaya
+ORD0116,2025-01-29,Croissant,Pastry,8,12,96,Cash,Klang
+ORD0117,2025-02-01,Cheesecake,Cake,8,50,400,Cash,Subang Jaya
+ORD0118,2025-03-27,Latte,Drink,6,14,84,Card,Klang
+ORD0119,2025-04-15,Latte,Drink,7,14,98,E-Wallet,Subang Jaya
+ORD0120,2025-04-25,Croissant,Pastry,8,12,96,Card,Subang Jaya
+ORD0121,2025-04-07,Blueberry Muffin,Pastry,5,10,50,E-Wallet,Subang Jaya
+ORD0122,2025-03-22,Blueberry Muffin,Pastry,5,10,50,Card,Shah Alam
+ORD0123,2025-04-02,Baguette,Bread,4,8,32,Card,Subang Jaya
+ORD0124,2025-02-10,Latte,Drink,2,14,28,Cash,Shah Alam
+ORD0125,2025-01-30,Chocolate Cookie,Cookie,3,6,18,E-Wallet,Shah Alam
+ORD0126,2025-01-09,Chocolate Cookie,Cookie,7,6,42,Card,Klang
+ORD0127,2025-03-01,Chocolate Cookie,Cookie,1,6,6,Cash,Subang Jaya
+ORD0128,2025-02-19,Cappuccino,Drink,1,15,15,E-Wallet,Subang Jaya
+ORD0129,2025-03-03,Chocolate Cake,Cake,6,45,270,Card,Subang Jaya
+ORD0130,2025-04-20,Chocolate Cookie,Cookie,4,6,24,Card,Shah Alam
+ORD0131,2025-02-04,Chocolate Cookie,Cookie,8,6,48,Cash,Subang Jaya
+ORD0132,2025-02-13,Chocolate Cookie,Cookie,3,6,18,Card,Shah Alam
+ORD0133,2025-03-21,Latte,Drink,1,14,14,Card,Klang
+ORD0134,2025-03-14,Chocolate Cake,Cake,2,45,90,E-Wallet,Subang Jaya
+ORD0135,2025-01-18,Macaron,Cookie,3,7,21,Cash,Subang Jaya
+ORD0136,2025-02-18,Whole Wheat Bread,Bread,4,9,36,Card,Subang Jaya
+ORD0137,2025-02-13,Chocolate Cookie,Cookie,5,6,30,Card,Subang Jaya
+ORD0138,2025-04-17,Cheesecake,Cake,8,50,400,Cash,Klang
+ORD0139,2025-03-11,Chocolate Cake,Cake,6,45,270,Cash,Klang
+ORD0140,2025-01-09,Chocolate Cake,Cake,1,45,45,Cash,Shah Alam
+ORD0141,2025-04-18,Chocolate Cake,Cake,3,45,135,Cash,Shah Alam
+ORD0142,2025-03-02,Cheesecake,Cake,4,50,200,Card,Klang
+ORD0143,2025-02-02,Whole Wheat Bread,Bread,3,9,27,E-Wallet,Klang
+ORD0144,2025-04-06,Cheesecake,Cake,3,50,150,Card,Shah Alam
+ORD0145,2025-03-16,Chocolate Cake,Cake,5,45,225,E-Wallet,Klang
+ORD0146,2025-04-27,Chocolate Cookie,Cookie,7,6,42,E-Wallet,Shah Alam
+ORD0147,2025-01-10,Cappuccino,Drink,4,15,60,Cash,Klang
+ORD0148,2025-04-09,Baguette,Bread,2,8,16,E-Wallet,Shah Alam
+ORD0149,2025-02-14,Latte,Drink,7,14,98,E-Wallet,Subang Jaya
+ORD0150,2025-01-09,Latte,Drink,6,14,84,Cash,Subang Jaya
+ORD0151,2025-04-16,Macaron,Cookie,2,7,14,Card,Subang Jaya
+ORD0152,2025-03-23,Macaron,Cookie,3,7,21,Card,Shah Alam
+ORD0153,2025-04-04,Latte,Drink,5,14,70,E-Wallet,Klang
+ORD0154,2025-04-10,Macaron,Cookie,8,7,56,Card,Klang
+ORD0155,2025-03-17,Baguette,Bread,6,8,48,Cash,Shah Alam
+ORD0156,2025-02-05,Macaron,Cookie,4,7,28,Card,Klang
+ORD0157,2025-03-20,Chocolate Cookie,Cookie,6,6,36,Cash,Subang Jaya
+ORD0158,2025-04-19,Whole Wheat Bread,Bread,3,9,27,Card,Shah Alam
+ORD0159,2025-02-15,Baguette,Bread,6,8,48,Card,Klang
+ORD0160,2025-03-31,Baguette,Bread,1,8,8,E-Wallet,Shah Alam
+ORD0161,2025-01-11,Blueberry Muffin,Pastry,7,10,70,Card,Klang
+ORD0162,2025-04-08,Blueberry Muffin,Pastry,8,10,80,E-Wallet,Klang
+ORD0163,2025-03-04,Macaron,Cookie,1,7,7,Cash,Subang Jaya
+ORD0164,2025-01-29,Chocolate Cookie,Cookie,4,6,24,Card,Klang
+ORD0165,2025-03-16,Whole Wheat Bread,Bread,8,9,72,E-Wallet,Klang
+ORD0166,2025-02-14,Chocolate Cookie,Cookie,6,6,36,Card,Klang
+ORD0167,2025-02-28,Baguette,Bread,5,8,40,Card,Shah Alam
+ORD0168,2025-01-16,Blueberry Muffin,Pastry,6,10,60,Cash,Klang
+ORD0169,2025-03-10,Croissant,Pastry,4,12,48,Cash,Klang
+ORD0170,2025-03-03,Baguette,Bread,5,8,40,Cash,Shah Alam
+ORD0171,2025-02-07,Blueberry Muffin,Pastry,6,10,60,Cash,Subang Jaya
+ORD0172,2025-01-02,Latte,Drink,3,14,42,Card,Shah Alam
+ORD0173,2025-01-07,Latte,Drink,5,14,70,E-Wallet,Shah Alam
+ORD0174,2025-03-23,Macaron,Cookie,2,7,14,Cash,Klang
+ORD0175,2025-02-06,Macaron,Cookie,8,7,56,Card,Subang Jaya
+ORD0176,2025-01-24,Chocolate Cake,Cake,5,45,225,Card,Shah Alam
+ORD0177,2025-04-16,Cheesecake,Cake,7,50,350,Card,Shah Alam
+ORD0178,2025-03-15,Chocolate Cake,Cake,3,45,135,Cash,Klang
+ORD0179,2025-02-08,Cheesecake,Cake,4,50,200,Cash,Klang
+ORD0180,2025-04-08,Chocolate Cookie,Cookie,4,6,24,E-Wallet,Subang Jaya
+ORD0181,2025-02-27,Macaron,Cookie,5,7,35,E-Wallet,Subang Jaya
+ORD0182,2025-02-09,Cappuccino,Drink,1,15,15,E-Wallet,Klang
+ORD0183,2025-01-13,Blueberry Muffin,Pastry,4,10,40,Card,Klang
+ORD0184,2025-01-11,Croissant,Pastry,4,12,48,Cash,Klang
+ORD0185,2025-01-10,Croissant,Pastry,1,12,12,Card,Subang Jaya
+ORD0186,2025-03-30,Cappuccino,Drink,8,15,120,Card,Shah Alam
+ORD0187,2025-01-30,Baguette,Bread,5,8,40,E-Wallet,Subang Jaya
+ORD0188,2025-01-10,Blueberry Muffin,Pastry,5,10,50,E-Wallet,Klang
+ORD0189,2025-03-26,Blueberry Muffin,Pastry,7,10,70,Cash,Klang
+ORD0190,2025-01-29,Croissant,Pastry,5,12,60,Cash,Shah Alam
+ORD0191,2025-01-08,Croissant,Pastry,5,12,60,E-Wallet,Klang
+ORD0192,2025-04-16,Cappuccino,Drink,5,15,75,Card,Shah Alam
+ORD0193,2025-03-01,Baguette,Bread,7,8,56,Card,Klang
+ORD0194,2025-03-11,Macaron,Cookie,8,7,56,Cash,Klang
+ORD0195,2025-01-06,Chocolate Cookie,Cookie,6,6,36,E-Wallet,Subang Jaya
+ORD0196,2025-01-04,Cheesecake,Cake,4,50,200,E-Wallet,Klang
+ORD0197,2025-03-17,Chocolate Cake,Cake,5,45,225,E-Wallet,Shah Alam
+ORD0198,2025-04-08,Croissant,Pastry,8,12,96,E-Wallet,Klang
+ORD0199,2025-02-26,Baguette,Bread,3,8,24,E-Wallet,Subang Jaya
+ORD0200,2025-03-23,Macaron,Cookie,2,7,14,Card,Subang Jaya
