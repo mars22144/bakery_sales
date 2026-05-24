@@ -60,21 +60,21 @@ ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".format(int
 plt.tight_layout(rect=[0, 0, 1, 0.95])
 
 print("=" * 15, "tren penjualan", "=" * 15)
-penjualan_terminal = penjualan.copy().sort_values(by="Year_Month")
-penjualan_terminal["Total_Sales_IDR"] = penjualan_terminal["Total_Sales_IDR"].apply(rupiah)
-print(penjualan_terminal.to_string(index=False))
+penjualan = penjualan.sort_values(by="Year_Month")
+penjualan["Total_Sales_IDR"] = penjualan["Total_Sales_IDR"].apply(rupiah)
+print(penjualan.to_string(index=False))
 
 print("=" * 15, "product terlaris dan kurang laku", "=" * 15)
 print(product_sales.to_string(index=False))
 
 print("=" * 15, "penjualan berdasarkan kategori", "=" * 15)
-categories_terminal = categories.copy().sort_values(by='Total_Sales_IDR', ascending=False)
-categories_terminal["Total_Sales_IDR"] = categories_terminal["Total_Sales_IDR"].apply(rupiah)
-print(categories_terminal.to_string(index=False))
+categories = categories.sort_values(by='Total_Sales_IDR', ascending=False)
+categories["Total_Sales_IDR"] = categories["Total_Sales_IDR"].apply(rupiah)
+print(categories.to_string(index=False))
 
 print("=" * 15, "penjualan tiap cabang", "=" * 15)
-cabang_sales_terminal = cabang_sales.copy().sort_values(by='Total_Sales_IDR', ascending=False)
-cabang_sales_terminal["Total_Sales_IDR"] = cabang_sales_terminal["Total_Sales_IDR"].apply(rupiah)
-print(cabang_sales_terminal.to_string(index=False))
+cabang_sales = cabang_sales.sort_values(by='Total_Sales_IDR', ascending=False)
+cabang_sales["Total_Sales_IDR"] = cabang_sales["Total_Sales_IDR"].apply(rupiah)
+print(cabang_sales.to_string(index=False))
 
 plt.show()
