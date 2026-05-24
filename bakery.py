@@ -11,7 +11,7 @@ ds["Total_Sales_IDR"] = ds["Total_Sales"] * kurs
 def rupiah(x):
     return f"Rp {x:,.0f}".replace(",", ".")
 
-# tren penjualan(ganti to_period sesuai kebutuhan)
+# tren penjualan
 ds["Date"] = pd.to_datetime(ds["Date"])
 ds["Year_Month"] = ds["Date"].dt.strftime("%Y-%m")
 penjualan = ds.groupby("Year_Month")["Total_Sales_IDR"].sum().reset_index()
@@ -42,7 +42,7 @@ ax1.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".format(int
 
 # grafik product terlaris dan kurang laris
 sbn.barplot(ax=ax2, data=product_sales, x="Quantity_Sold", y="Product_Name")
-ax2.set_title("Penjualan Product Terlaris dan Kurang Laris", fontsize=12, fontweight="bold")
+ax2.set_title("Penjualan Setiap Product", fontsize=12, fontweight="bold")
 ax2.set_xlabel("Total")
 ax2.set_ylabel("Nama Product")
 
