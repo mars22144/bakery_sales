@@ -60,7 +60,7 @@ ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".format(int
 plt.tight_layout(rect=[0, 0, 1, 0.95])
 
 print("=" * 15, "tren penjualan", "=" * 15)
-penjualan = penjualan.copy.sort_values(by="Year_Month")
+penjualan = penjualan.sort_values(by="Year_Month")
 penjualan["Total_Sales_IDR"] = penjualan["Total_Sales_IDR"].apply(rupiah)
 print(penjualan.to_string(index=False))
 
