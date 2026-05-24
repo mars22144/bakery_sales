@@ -12,7 +12,13 @@ penjualan = ds.groupby(ds["Date"].dt.to_period("M"))["Total_Sales"].sum().reset_
 product_sales = ds.groupby("Product_Name")["Quantity_Sold"].sum().reset_index()
 product_sales = product_sales.sort_values(by="Quantity_Sold", ascending=False)
 
+# penjualan berdasarkan kaetogri
+categories = ds.groupby("Category")["Quantity_Sold"].sum().reset_index()
+
+
 print("=" * 15, "tren penjualan", "=" * 15)
 print(penjualan.to_string(index=False))
 print("=" * 15, "product terlaris dan kurang laku", "=" * 15)
 print(product_sales.to_string(index=False))
+print("=" * 15, "penjualan berdasarkan kategori", "=" * 15)
+print(categories.to_string(index=False))
