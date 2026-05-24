@@ -27,17 +27,18 @@ fig.suptitle("Grafik penjualan", fontsize=16, fontweight="bold")
 penjualan_subplot = penjualan.copy()
 penjualan_subplot["Date"] = penjualan_subplot["Date"].dt.to_timestamp()
 sbn.lineplot(ax=axes[0, 0], data=penjualan_subplot, x="Date", y="Total_Sales", marker="o", color="b", linewidth=2)
-axes[0, 0].set_title("Penjualan Trend Bulanan", fontsize=16, fontweight="bold")
+axes[0, 0].set_title("Penjualan Trend Bulanan", fontsize=12, fontweight="bold")
 axes[0, 0].set_xlabel("Bulan")
 axes[0, 0].set_ylabel("Total")
 axes[0, 0].grid(True, linestyle="--", alpha=0.6)
 
 # grafik product terlaris dan kurang laris
-plt.figure(figsize=(10, 5))
-sbn.barplot(data=product_sales, x="Quantity_Sold", y="Product_Name", palette="Blues_r")
-plt.title("Grafik Penjualan Product yang laris dan yang kurang laku")
-plt.xlabel("Total")
-plt.ylabel("Product")
+sbn.barplot(ax=axes[0, 1], data=product_sales, x="Quantity_Sold", y="Product_Name", palette="Blue_r")
+axes[0, 1].set_title("Penjualan Product Terlaris dan Kurang Laris", fontsize=12, fontweight="bold")
+axes[0, 1].set_xlabel("Total")
+axes[0, 1].set_ylabel("Nama Product")
+
+
 
 
 print("=" * 15, "tren penjualan", "=" * 15)
