@@ -1,15 +1,16 @@
 import pandas as pd
 
 ds = pd.read_csv("csv/bakery_sales_dataset.csv", sep=",", encoding="latin1")
-
-print("=== Statistik Deskriptif ===")
-print(ds[['Quantity_Sold', 'Unit_Price', 'Total_Sales']].describe().round(2))
 # convert ke rupiah
 kurs = 4460
 ds["Total_Sales_IDR"] = ds["Total_Sales"] * kurs
+ds["Unit_Price_IDR"] = ds["Unit_Price"] * kurs
 
 def rupiah(x):
-    return f"Rp {x:,.0f}".replace(",", ".")
+    return f"Rp {x:,.0f}".replace(".", ",")
+
+print("=== Statistik Deskriptif ===")
+print(ds[['Quantity_Sold', 'Unit_Price_IDR', 'Total_Sales_IDR']].describe().round(2))
 
 # total keseluruhan
 total_omset     = ds['Total_Sales_IDR'].sum()
@@ -18,9 +19,9 @@ rata2_transaksi = ds['Total_Sales_IDR'].mean()
 total_qty       = ds['Quantity_Sold'].sum()
 
 print("\n=== Ringkasan Umum ===")
-print(f"Total omset          : {total_omset:,.0f}")
+print(f"Total omset          : Rp{total_omset:,.0f}")
 print(f"Total transaksi      : {total_transaksi}")
-print(f"Rata-rata/transaksi  : {rata2_transaksi:.2f}")
+print(f"Rata-rata/transaksi  : Rp{rata2_transaksi:,.0f}")
 print(f"Total qty terjual    : {total_qty}")
 
 # penjualan percabang
