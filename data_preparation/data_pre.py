@@ -40,14 +40,15 @@ masalah = False
 if nilai_hilang > 0:
     masalah = True
     print(f"Missing values ditemukan : {nilai_hilang} nilai kosong")
-    print("   Detail per kolom:")
+    print("  Detail per kolom:")
+    
     detail_missing = ds.isnull().sum()[ds.isnull().sum() > 0]
     
-    for kolom, jumlah in detail_missing.items():
-        persen = (jumlah / len(ds)) * 100
-        print(f"   - {kolom:<20} : {jumlah} nilai kosong")
-    
+    baris_teks = "  - " + detail_missing.index.str.ljust(20) + " : " + detail_missing.astype(str) + " nilai kosong"
+    print("\n".join(baris_teks))
+
     baris_missing = ds[ds.isnull().any(axis=1)]
+    
     print(f"Baris yang missing value:")
     print(baris_missing.head(5).to_string(index=False))
 else:
@@ -61,10 +62,12 @@ if duplikat > 0:
     baris_duplikat = ds[ds.duplicated(keep=False)]
 
     print("Detail kolom penyebab duplikat:")
-    for kolom in ds.columns:
-        jml_duplikat_kolom = ds.duplicated(subset=[kolom]).sum()
-        if jml_duplikat_kolom > 0:
-            print(f"   - {kolom:<20} : {jml_duplikat_kolom} duplikat")
+    detail_duplikat = ds.apply(lambda x: x.duplicated().sum())
+    detail_duplikat = detail_duplikat[detail_duplikat > 0]
+
+    # Gabungkan hasilnya menjadi string
+    baris_teks = "  - " + detail_duplikat.index.str.ljust(20) + " : " + detail_duplikat.astype(str) + " duplikat"
+    print("\n".join(baris_teks))
 
     print(f"\nbaris duplikat:")
     print(baris_duplikat.head(5).to_string(index=False))
