@@ -32,7 +32,6 @@ fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2, figsize=(15, 10))
 fig.suptitle("Grafik penjualan", fontsize=16, fontweight="bold")
 
 # grafik tren penjualan
-# penjualan_subplot = penjualan.copy()
 sbn.lineplot(ax=ax1, data=penjualan, x="Year_Month", y="Total_Sales_IDR", marker="o", color="b", linewidth=2)
 ax1.set_title("Penjualan Trend Bulanan", fontsize=12, fontweight="bold")
 ax1.set_xlabel("Bulan")
