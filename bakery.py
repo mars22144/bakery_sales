@@ -47,7 +47,7 @@ ax2.set_ylabel("Nama Product")
 
 # grafik kategori
 ax3.pie(categories["Total_Sales_IDR"], labels=categories["Category"], autopct="%1.1f%%", startangle=140, colors=sbn.color_palette("Pastel1"))
-ax3.set_title("Penjualan Berdasarkan Kategori", fontsize=12, fontweight="bold")
+ax3.set_title("Omset Penjualan Berdasarkan Kategori", fontsize=12, fontweight="bold")
 
 # Penjualan per cabang
 sbn.barplot(ax=ax4, data=cabang_sales, x= "Branch", y="Total_Sales_IDR")
