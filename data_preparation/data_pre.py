@@ -38,7 +38,7 @@ masalah = False
 
 # missing value
 if nilai_hilang > 0:
-    ada_masalah = True
+    masalah = True
     print(f"Missing values ditemukan : {nilai_hilang} nilai kosong")
     print("   Detail per kolom:")
     detail_missing = ds.isnull().sum()[ds.isnull().sum() > 0]
@@ -55,7 +55,7 @@ else:
 
 # duplicate
 if duplikat > 0:
-    ada_masalah = True
+    masalah = True
     print(f"\nDuplikat ditemukan : {duplikat} baris duplikat")
 
     baris_duplikat = ds[ds.duplicated(keep=False)]
