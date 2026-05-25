@@ -33,9 +33,28 @@ ds['Day_of_Week'] = ds['Date'].dt.day_name()
 print("\nKolom baru berhasil ditambahkan:")
 print(ds[['Date', 'Month', 'Month_Name', 'Day_of_Week']].head(5))
 
-# --- 8. Konfirmasi Dataset Bersih ---
-print("\n=== Ringkasan ===")
-print(f"Total baris    : {ds.shape[0]}")
-print(f"Total kolom    : {ds.shape[1]}")
-print(f"Missing values : {ds.isnull().sum().sum()}")
-print(f"Duplikat       : {ds.duplicated().sum()}")
+# --- Konfirmasi Dataset Bersih ---
+masalah = False
+
+if nilai_hilang > 0:
+    masalah = True
+    print(f"Ada missing value: {nilai_hilang}")
+    print("Kolom:")
+    print(ds.isnull().sum()[ds.isnull().sum() > 0].to_string())
+
+if duplikat > 0:
+    masalah = True
+    print(f"Duplikasi ditemukan: {duplikat}")
+
+if ds["Date"].dtype != "datetime64[ns]":
+    masalah = True
+    print(f"Kolom date blm datetime, tipe saat ini: {ds['Date'].dtype()}")
+
+if masalah:
+    print(f"Data blm bersih, silahkan perbaiki terlebih dahulu")
+else:
+    print("\n=== Ringkasan ===")
+    print(f"Total baris    : {ds.shape[0]}")
+    print(f"Total kolom    : {ds.shape[1]}")
+    print(f"Missing values : {ds.isnull().sum().sum()}")
+    print(f"Duplikat       : {ds.duplicated().sum()}")  
