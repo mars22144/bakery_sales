@@ -57,6 +57,7 @@ ax4.set_ylabel("Total(Rp)")
 ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".format(int(x)).replace(",", ".")))
 
 plt.tight_layout(rect=[0, 0, 1, 0.95])
+plt.subplots_adjust(hspace=0.3)
 
 print("=" * 15, "tren penjualan", "=" * 15)
 penjualan = penjualan.sort_values(by="Year_Month")
