@@ -27,10 +27,10 @@ print(f"Total qty terjual    : {total_qty}")
 # penjualan percabang
 print("\n=== Penjualan per Cabang ===")
 branch_stats = ds.groupby('Branch').agg(
-    Total_Omset    = ('Total_Sales_IDR',   'sum'),
-    Jml_Transaksi  = ('Order_ID',      'count'),
-    Rata2_Transaksi= ('Total_Sales_IDR',   'mean'),
-    Total_Qty      = ('Quantity_Sold',  'sum')
+    Total_Omset    = ('Total_Sales_IDR', 'sum'),
+    Jml_Transaksi  = ('Order_ID', 'count'),
+    Rata2_Transaksi= ('Total_Sales_IDR', 'mean'),
+    Total_Qty      = ('Quantity_Sold', 'sum')
 ).round(2)
 branch_stats['Total_Omset']     = branch_stats['Total_Omset'].apply(rupiah)
 branch_stats['Rata2_Transaksi'] = branch_stats['Rata2_Transaksi'].apply(rupiah)
@@ -39,8 +39,8 @@ print(branch_stats)
 # penjualan per kategori
 print("\n=== Penjualan per Kategori ===")
 cat_stats = ds.groupby('Category').agg(
-    Total_Omset   = ('Total_Sales_IDR',  'sum'),
-    Jml_Transaksi = ('Order_ID',     'count'),
+    Total_Omset   = ('Total_Sales_IDR', 'sum'),
+    Jml_Transaksi = ('Order_ID', 'count'),
     Total_Qty     = ('Quantity_Sold', 'sum')
 ).sort_values('Total_Omset', ascending=False).round(2)
 cat_stats['Total_Omset'] = cat_stats['Total_Omset'].apply(rupiah)
@@ -51,8 +51,8 @@ print("\n=== Penjualan per Bulan ===")
 ds["Date"] = pd.to_datetime(ds["Date"])
 ds['Month_Name']  = ds['Date'].dt.strftime('%B %Y')
 monthly_stats = ds.groupby('Month_Name').agg(
-    Total_Omset   = ('Total_Sales_IDR',  'sum'),
-    Jml_Transaksi = ('Order_ID',     'count'),
+    Total_Omset   = ('Total_Sales_IDR', 'sum'),
+    Jml_Transaksi = ('Order_ID', 'count'),
     Total_Qty     = ('Quantity_Sold', 'sum')
 ).round(2)
 monthly_stats['Total_Omset'] = monthly_stats['Total_Omset'].apply(rupiah)
