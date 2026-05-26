@@ -51,7 +51,7 @@ ax3.set_title("Omset Penjualan Berdasarkan Kategori", fontsize=12, fontweight="b
 
 # Penjualan per cabang
 sbn.barplot(ax=ax4, data=cabang_sales, x= "Branch", y="Total_Sales_IDR")
-ax4.set_title("Penjualan Setiap Cabang", fontsize=12, fontweight="bold")
+ax4.set_title("Omset Penjualan Setiap Cabang", fontsize=12, fontweight="bold")
 ax4.set_xlabel("Cabang")
 ax4.set_ylabel("Total(Rp)")
 ax4.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".format(int(x)).replace(",", ".")))
